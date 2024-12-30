@@ -2,10 +2,10 @@ import './App.css';
 import Main from './components/Main';
 import Projects from './components/Projects';
 import Footer from './layouts/Footer';
-import Header from './layouts/Header';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { useEffect, useState } from 'react';
+import Header from './layouts/NavHeader';
 
 const App = () => {
   const [section, setSection] = useState(window.location.hash || '#hero');

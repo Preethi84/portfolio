@@ -1,13 +1,14 @@
 import React from 'react';
+import {Button} from 'antd';
 
 const Main = () => {
     return(
         <section className='main'>
-            <div className='text-center'>
-                <h1>Hi, I'm, Preethi</h1>
-                <p>Full Stack Developer</p>
+            <div className='main-jumbotron'>
+                <h1 className='jumbotron-title'>Hi, I'm, Preethi</h1>
+                <p className='jumbotron-subtitle'>Full Stack Developer</p>
                 <a href='#projects'>
-                    <button>View My Work</button>
+                    <Button type='primary'>View My Work</Button>
                 </a>
                 <p>
                     I'm a passionate Full Stack Developer with expertise in Vue, React, Python, and FastAPI. My goal is to build efficient, scalable, and user-friendly applications. 
