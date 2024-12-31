@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'antd';
 
 const Header = () => {
     return(
@@ -6,10 +7,10 @@ const Header = () => {
             <div className='header-brand'>Preethi</div>
             <div className='header-links'>
                 <ul>
-                    <li><a href="#main">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><Button type='link'><a href="#main">Home</a></Button></li>
+                    <li><Button type='link'><a href="#skills">Skills</a></Button></li>
+                    <li><Button type='link'><a href="#projects">Projects</a></Button></li>
+                    <li><Button type='link'><a href="#contact">Contact</a></Button></li>
                 </ul>
             </div>
         </div>
