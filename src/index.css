@@ -165,7 +165,7 @@ h1,h2,h3,h4,h5,h6, p {
 /* Hero section style */
 .hero-section{
   background: linear-gradient(90deg, #D6E4F0, #AFCDE7, #8FBCE6);
-  animation: footergradient 5s alternate infinite;
+  animation: bg-gradient 5s alternate infinite;
   background-size: 300% 300%;
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   display: grid;
@@ -580,7 +580,7 @@ input[type="checkbox"]{
   height: 21px;
   border: 0.15em solid var(--heading);
   border-radius: 0.15em;
-  transform: translateY(-0.75em);
+  /* transform: translateY(-0.75em); */
 }
 
 /* contact end */
@@ -591,8 +591,8 @@ input[type="checkbox"]{
   padding: 40px 40px;
   flex-direction: column;
   align-items: flex-start;
-  background: linear-gradient(90deg, #D6E4F0, #AFCDE7, #8FBCE6);
-  animation: footergradient 5s alternate infinite;
+  background: linear-gradient(120deg, #698caa, #305270, #8FBCE6);
+  animation: bg-gradient 4s alternate infinite;
   background-size: 300% 300%;
   align-items: center;
   align-self: stretch;
@@ -828,7 +828,7 @@ input[type="checkbox"]{
 
 
 /* About gradient */
-@keyframes footergradient{
+@keyframes bg-gradient{
   0%{
     background-position: 0%;
   }
